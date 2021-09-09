@@ -15,6 +15,48 @@ body {
     font-size: 1.5em;
 }
 
+.container {
+    margin: 2% 15%;
+    border: 0.1rem solid var(--primary-color);
+    border-radius: 2%;
+    padding: 2%;
+    margin-bottom: 0%;
+}
+
+.side {
+    float: left;
+    width: 30%;
+    min-width: 400px;
+}
+
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.main {
+    margin: 2%;
+}
+
 h1, h2, h3 {
     color: var(--primary-color);
+}
+
+footer {
+    padding: 0.5em;
+}
+
+small {
+    padding: 0.5em;
+    background-color: var(--primary-color);
+    border-radius: 25%;
+}
+
+small a {
+    color: var(--tertiary-color);
+}
+
+small a:hover {
+    box-shadow: black;
 }

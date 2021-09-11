@@ -79,4 +79,24 @@ footer {
     background-image: linear-gradient(to bottom, #57b4ed, #6aa5cc);
     text-decoration: none;
   }
+
+  footer {
+      position: relative;
+  }
   
+  .footer-email {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    color: #3e5467;
+}
+
+.copyright {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    color: #3e5467;
+  }
